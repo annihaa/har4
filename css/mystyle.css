@@ -1,44 +1,44 @@
 html,
-		body {
-		  height: 100%;
-		  width: 100%;
-		}
-
-#header{
+body {
+  height: 100%;
+  width: 100%;
+}
+#header {
   background-color: lightblue;
 }
-#menu{
+#menu {
   background-color: orange;
   float: left;
   width: 150px;
   height: 100%;
   font-size: 20px;
 }
-#menu ul li{
+#menu ul li {
   list-style: none;
 }
-#menu ul li a{
-text-decoration: none;
+#menu ul li a {
+  text-decoration: none;
 }
-#menu ul li a :hover{
+#menu ul li a:hover {
   background-color: white;
 }
-#content{
+
+#content {
   margin-left: 160px;
-
-#footer{
-  background-color: red;
+}
+#footer {
+  background-color: lightgray;
 }
 
-#sourceForm{
-	background-color: yellow;
-	border-radius: 10px;
-	padding: 10px;
-	width: 400px;
+#sourceForm {
+  background-color: yellow;
 }
-#targetForm{
-	background-color: green;
-	border-radius: 10px;
-	padding: 10px;
-	width: 400px;
+#targetForm {
+  background-color: green;
+}
+
+.myForm {
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
 }

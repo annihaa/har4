@@ -7,10 +7,10 @@
 <form id="sourceForm">
   <label>Language</label>
   <br/>
-  <select name="language" id="language" onChange='showLanguage()'>
-    <option value="es">English</option>
-    <option value="fi">Finnish</option>
-    <option value="sw">Sweadish</option>
+  <select name="language" id="language" onChange="showLanguage()">
+    <option value="English">English</option>
+    <option value="Finnish">Finnish</option>
+    <option value="Sweadish">Sweadish</option>
   </select>
   <br/><br/>
   <label>Phone:</label>
@@ -22,9 +22,9 @@
 </form>
 
 <h3>Selected values</h3>
-<form id="targetForm">
+<form id="targetForm" class="myForm">
   <label for="selected_language">Language:</label><br/>
-  <input type="text" id="selected_language"><br/>
+  <input type="text" id="selected_language"/><br/>
   <label for="selected_phone">Phone:</label><br/>
-  <input type="text" id="selected_phone"><br/>
+  <input type="text" id="selected_phone"/><br/>
 </form>
